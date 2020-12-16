@@ -44,7 +44,7 @@
                     @endauth
                 </div>
             @endif
-{{--            Tot en met hier!!!!!!!--}}
+{{--            Tot en met hier!!!!!!--}}
             <h1>Hello world</h1>
 
         </div>
