@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Rent-a-Car | Beste huurauto's van Nederland</title>
+    <title>Rent-a-Car | Beste huurauto's van Almere</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,32 +15,35 @@
 
 <body>
 <div class="container">
-<nav class ="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class ="navbar navbar-expand-lg navbar-dark text-light bg-dark ">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{url('/')}}">Rent-a-Car</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
                 <a href="{{ url('/') }}" class="nav-link">Home</a>
-    @if (Route::has('login'))
+                <a href="{{ url('huren') }}" class="nav-link">Huren</a>
+                <a href="{{ url('contact') }}" class="nav-link">Contact</a>
+            <div class=" navbar-collapse justify-content-end">
+                @if (Route::has('login'))
 
             @auth
-                <a href="{{ url('/dashboard') }}" class="nav-link">Dashboard</a>
+                <a href="{{ url('/dashboard') }}" class="nav-link bg-dark" >Dashboard</a>
             @else
-                <a href="{{ route('login') }}" class="nav-link">Login</a>
+                <a href="{{ route('login') }}" class="nav-link bg-dark">Login</a>
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="nav-link">Register</a>
+                    <a href="{{ route('register') }}" class="nav-link bg-dark">Register</a>
                 @endif
             @endauth
     @endif
-          <a href="{{ url('contact') }}" class="nav-link">contact</a>
 
+                </div>
             </div>
-        </div>
-    </div>
+
 </div>
 
 </nav>
-</div>
+    </div>
+
