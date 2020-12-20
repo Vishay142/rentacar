@@ -24,13 +24,23 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
                 <a href="{{ url('/') }}" class="nav-link">Home</a>
-                <a href="{{ url('huren') }}" class="nav-link">Huren</a>
+                <a href="{{ url('autos') }}" class="nav-link">Huren</a>
                 <a href="{{ url('contact') }}" class="nav-link">Contact</a>
+                <a href="{{ url('huren') }}" class="nav-link">Autos aanpassen</a>
             <div class=" navbar-collapse justify-content-end">
                 @if (Route::has('login'))
 
             @auth
-                <a href="{{ url('/dashboard') }}" class="nav-link bg-dark" >Dashboard</a>
+                <a href="{{ url('/user/profile') }}" class="nav-link bg-dark" >{{Auth::user()->name}}</a>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <a class="nav-link" href="{{ route('logout') }}"
+                                                       onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+                        </form>
             @else
                 <a href="{{ route('login') }}" class="nav-link bg-dark">Login</a>
                 @if (Route::has('register'))
