@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\auto;
 
 class AutoController extends Controller
 {
@@ -14,9 +15,10 @@ class AutoController extends Controller
      */
     public function index()
     {
-        return DB::select("select * from auto");
-//        $auto = Auto::all()->toArray();
-//        return view('huren', compact('auto'));
+        $autos = auto::all();
+//      $autos = auto::where('id', 2)->get();
+        return view('/huren', compact('autos'));
+
     }
 
     /**

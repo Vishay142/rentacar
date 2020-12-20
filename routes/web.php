@@ -22,9 +22,13 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('huren',[AutoController::class, 'index']);
+//Route::get('/huren', function() {
+//    return view('huren');
+//});
 
 
+
+Route::resource('huren', App\Http\Controllers\AutoController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

@@ -9,6 +9,7 @@ class auto extends Model
 {
     use HasFactory;
     protected $table = 'auto';
+    public $timestamps = false;
 
 //foreach (Flight::all() as $flight) {
 //echo $flight->name;
