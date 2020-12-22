@@ -34,7 +34,7 @@
                                     @method('DELETE')
                                     @csrf
                                     <td colspan="1">
-                                        <button type="submit" href="{{route('autos.destroy',$auto->id)}}" onclick="return confirm('Wil je de auto zeker verwijderen')" class=" btn btn-danger">
+                                        <button type="submit" href="{{route('autos.destroy',$auto->id)}}" onclick="return confirm('Weet je zeker dat je de auto wilt verwijderen?')" class=" btn btn-danger">
                                             Verwijderen</button>
                                     </td>
                                 </form>

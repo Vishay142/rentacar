@@ -9,6 +9,8 @@ class auto extends Model
 {
     use HasFactory;
     protected $table = 'auto';
+    protected $guarded = [];
+
     public $timestamps = false;
 
 

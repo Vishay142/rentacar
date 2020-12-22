@@ -5,7 +5,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Voeg een auto toe') }}</div>
-                <form method="POST" action="{{route('autos.update', $autos->id)}}">
+                <form method="POST" action="{{route('autos.update', $auto->id)}}">
                     @method('PUT')
                     @csrf
 
@@ -13,7 +13,7 @@
                         <label for="kenteken" class="col-md-4 col-form-label text-md-right">{{ __('kenteken') }}</label>
 
                         <div class="col-md-6">
-                            <input id="kenteken" type="text" class="form-control @error('kenteken') is-invalid @enderror" name="kenteken" value=" {{$autos->kenteken}}" required autocomplete="kenteken" autofocus>
+                            <input id="kenteken" type="text" class="form-control @error('kenteken') is-invalid @enderror" name="kenteken" value=" {{$auto->kenteken}}" required autocomplete="kenteken" autofocus>
 
                             @error('kenteken')
                             <span class="invalid-feedback" role="alert">
@@ -27,7 +27,7 @@
                         <label for="merk" class="col-md-4 col-form-label text-md-right">{{ __('merk') }}</label>
 
                         <div class="col-md-6">
-                            <input id="merk" type="text" class="form-control @error('merk') is-invalid @enderror" name="merk" value=" {{$autos->merk}} " required autocomplete="merk" autofocus>
+                            <input id="merk" type="text" class="form-control @error('merk') is-invalid @enderror" name="merk" value=" {{$auto->merk}} " required autocomplete="merk" autofocus>
 
                             @error('merk')
                             <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
                         <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('type') }}</label>
 
                         <div class="col-md-6">
-                            <input id="type" type="text" class="form-control @error('type') is-invalid @enderror" name="type" value="{{$autos->type}}" required autocomplete="type" autofocus>
+                            <input id="type" type="text" class="form-control @error('type') is-invalid @enderror" name="type" value="{{$auto->type}}" required autocomplete="type" autofocus>
 
                             @error('type')
                             <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
                         <label for="prijs-per-dag" class="col-md-4 col-form-label text-md-right">{{ __('prijs per dag') }}</label>
 
                         <div class="col-md-6">
-                            <input id="prijs-per-dag" type="text" class="form-control @error('prijs_per_dag') is-invalid @enderror" name="prijs_per_dag" value="{{$autos->prijs_per_dag}}" required autocomplete="prijs-per-dag" autofocus>
+                            <input id="prijs-per-dag" type="text" class="form-control @error('prijs_per_dag') is-invalid @enderror" name="prijs_per_dag" value="{{$auto->prijs_per_dag}}" required autocomplete="prijs-per-dag" autofocus>
 
                             @error('prijs  ')
                             <span class="invalid-feedback" role="alert">

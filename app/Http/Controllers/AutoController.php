@@ -37,17 +37,21 @@ class AutoController extends Controller
     }
 
     /**
-     * @param auto $autos
+     * Show the form for editing the specified resource.
+     *
+     * @param  auto  $auto
+     * @return \Illuminate\Http\Response
      */
-    public function edit(auto $autos)
+    public function edit(auto $auto)
     {
-        return view('autos.edit', compact('autos'));
+        return view('autos.edit', compact('auto'));
     }
 
 
-    public function update(UpdateautoRequest $request, $id, auto $auto)
+    public function update(StoreAutoRequest $request, auto $auto)
     {
-
+        $auto->update($request->validated());
+        return redirect()->route('autos.index');
     }
 
     public function destroy(auto $auto)
