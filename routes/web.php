@@ -22,17 +22,17 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-
-//Route::get('/huren', function() {
-//    return view('huren');
-//});
+Route::get('/reserveren', function () {
+    return view('reservering');
+});
 
 
 
 
 Route::resource('admin', App\Http\Controllers\AdminController::class);
 
-Route::resource('huren', App\Http\Controllers\AutoController::class);
+Route::resource('autos', App\Http\Controllers\AutoController::class);
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

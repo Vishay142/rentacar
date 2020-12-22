@@ -24,9 +24,9 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
                 <a href="{{ url('/') }}" class="nav-link">Home</a>
-                <a href="{{ url('autos') }}" class="nav-link">Huren</a>
+                <a href="{{ url('autos/huren') }}" class="nav-link">Huren</a>
                 <a href="{{ url('contact') }}" class="nav-link">Contact</a>
-                <a href="{{ url('huren') }}" class="nav-link">Autos aanpassen</a>
+                <a href="{{ url('autos') }}" class="nav-link">Autos aanpassen</a>
             <div class=" navbar-collapse justify-content-end">
                 @if (Route::has('login'))
 

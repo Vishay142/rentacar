@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreAutoRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\auto;
+use App\Models\AutoCreate;
 
 class AutoController extends Controller
 {
@@ -17,36 +19,40 @@ class AutoController extends Controller
 
     public function create()
     {
-        return view('auto.index');
+        return view('autos.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreAutoRequest $request)
     {
-        auto::create($request->validated());
+       AutoCreate::create($request->validated());
 
-        return redirect()->route('/huren');
+        return redirect()->route('autos.create');
+
 
     }
-
-    public function show(auto $autos)
+    public function show()
     {
-        return view('autos.show', compact('autos'));
+        $autos = auto::all();
+        return view('huren', compact('autos'));
     }
 
+    /**
+     * @param auto $autos
+     */
     public function edit(auto $autos)
     {
         return view('autos.edit', compact('autos'));
     }
 
 
-    public function update(UpdateautoRequest $request, $id)
+    public function update(UpdateautoRequest $request, $id, auto $auto)
     {
-        //
+
     }
 
-    public function destroy(auto $autos)
+    public function destroy(auto $auto)
     {
-            $autos->delete();
+            $auto->delete();
             return redirect()->route('autos.index');
     }
 }

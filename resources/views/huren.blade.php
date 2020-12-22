@@ -13,7 +13,7 @@
                 @if (Route::has('login'))
 
                     @auth
-                <a href="{{$auto->id}}" class="btn btn-primary">Reserveren</a>
+                <a href="#" class="btn btn-primary">Reserveren</a>
                     @else
 
                         <a href="{{ route('login') }}" class="list-group-item list-group-item-action">Login</a>
