@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->middleware('admin');
 
 Route::get('/reserveren', function () {
     return view('reservering');
@@ -32,8 +32,11 @@ Route::get('/reserveren', function () {
 Route::resource('admin', App\Http\Controllers\AdminController::class);
 
 Route::resource('autos', App\Http\Controllers\AutoController::class);
+Route::resource('autos', App\Http\Controllers\AutoController::class)->middleware('auth');
+
+;
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
-})->name('dashboard');
+});
