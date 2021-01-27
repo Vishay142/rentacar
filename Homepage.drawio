@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T16:39:46.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="2_fKv_13KbbagVYuca2v" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T16:39:55.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="sKxvpohfZBCkG7_VwHyK" version="14.2.7" type="github">
   <diagram id="ICP7XfCdU4k0QFbaAApS" name="Page-1">
     <mxGraphModel dx="998" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-13" value="Factuur pagina" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="414" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-16" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f4QJuCPTMVfqGpAJvOSt-15" target="f4QJuCPTMVfqGpAJvOSt-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
