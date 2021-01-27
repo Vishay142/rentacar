@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T16:35:05.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="g6li3j2VALLgO7yWqXo5" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T16:35:57.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="pDRc7DooLGqj43xM6m5A" version="14.2.7" type="github">
   <diagram id="ICP7XfCdU4k0QFbaAApS" name="Page-1">
     <mxGraphModel dx="998" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -110,13 +110,13 @@
           <mxGeometry x="240" y="55" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IaX_yvu7LaWwqj8WJBtz-4" value="Reserveren" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IaX_yvu7LaWwqj8WJBtz-7" value="Auto&#39;s verwijderen&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-7" value="Huren" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
