@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T16:35:57.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="pDRc7DooLGqj43xM6m5A" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T16:39:46.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="2_fKv_13KbbagVYuca2v" version="14.2.7" type="github">
   <diagram id="ICP7XfCdU4k0QFbaAApS" name="Page-1">
     <mxGraphModel dx="998" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -71,28 +71,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-13" value="Factuur pagina" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-16" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f4QJuCPTMVfqGpAJvOSt-15" target="f4QJuCPTMVfqGpAJvOSt-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-15" value="Medewerker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f4QJuCPTMVfqGpAJvOSt-17" target="f4QJuCPTMVfqGpAJvOSt-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-17" value="Auto&#39;s aanpassen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="820" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="f4QJuCPTMVfqGpAJvOSt-20" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f4QJuCPTMVfqGpAJvOSt-19" target="f4QJuCPTMVfqGpAJvOSt-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="580" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IaX_yvu7LaWwqj8WJBtz-8" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4QJuCPTMVfqGpAJvOSt-19" target="IaX_yvu7LaWwqj8WJBtz-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IaX_yvu7LaWwqj8WJBtz-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4QJuCPTMVfqGpAJvOSt-19" target="f4QJuCPTMVfqGpAJvOSt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-19" value="Auto&#39;s toevoegen&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Home pagina&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="315" y="6" width="210" height="20" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry x="320" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IaX_yvu7LaWwqj8WJBtz-7" value="Auto&#39;s verwijderen&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4QJuCPTMVfqGpAJvOSt-7" value="Huren" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
