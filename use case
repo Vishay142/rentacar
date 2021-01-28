@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T20:04:34.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="45ShuJQmhNPLpwadBGTL" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T20:06:34.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="2OKTGcdPu6cbhqNdA5CR" version="14.2.7" type="github">
   <diagram id="OYIbfxgimVxjj8oZw2g2" name="Page-1">
     <mxGraphModel dx="998" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,11 +37,17 @@
         <mxCell id="BrR0-yB51GmL9FTNCe-r-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrR0-yB51GmL9FTNCe-r-12" target="BrR0-yB51GmL9FTNCe-r-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BrR0-yB51GmL9FTNCe-r-12" value="Factuur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BrR0-yB51GmL9FTNCe-r-12" value="Confirmation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="BrR0-yB51GmL9FTNCe-r-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrR0-yB51GmL9FTNCe-r-13" target="BrR0-yB51GmL9FTNCe-r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BrR0-yB51GmL9FTNCe-r-13" value="Factuur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrR0-yB51GmL9FTNCe-r-16" value="Factuur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
