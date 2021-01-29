@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T17:02:14.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="iofR3dRQ70y8Pi6zX_Dt" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T17:23:47.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="vE7jvMYz2mhi8kKDYgj-" version="14.2.9" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1645" dy="106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="987" dy="-267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,6 +120,9 @@
         <mxCell id="8lcqlqMeQDcv-5X55_Zb-81" value="Uitloggen" style="" vertex="1" parent="1">
           <mxGeometry x="400" y="1594" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#141414;" edge="1" parent="1" source="8lcqlqMeQDcv-5X55_Zb-86" target="8lcqlqMeQDcv-5X55_Zb-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8lcqlqMeQDcv-5X55_Zb-86" value="Registreren" style="" vertex="1" parent="1">
           <mxGeometry x="260" y="956" width="110" height="50" as="geometry" />
         </mxCell>
@@ -135,6 +138,33 @@
         </mxCell>
         <mxCell id="8lcqlqMeQDcv-5X55_Zb-89" value="Keuze maken" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="345" y="904" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#141414;" edge="1" parent="1" source="8lcqlqMeQDcv-5X55_Zb-96" target="8lcqlqMeQDcv-5X55_Zb-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#141414;dashed=1;" edge="1" parent="1" source="8lcqlqMeQDcv-5X55_Zb-96" target="8lcqlqMeQDcv-5X55_Zb-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="1120" />
+              <mxPoint x="100" y="1120" />
+              <mxPoint x="100" y="900" />
+              <mxPoint x="310" y="900" />
+              <mxPoint x="310" y="864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-96" value="Correct?" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1032.25" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#141414;" edge="1" parent="1" source="8lcqlqMeQDcv-5X55_Zb-97" target="8lcqlqMeQDcv-5X55_Zb-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="981" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lcqlqMeQDcv-5X55_Zb-97" value="Error" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1028.5" width="100" height="47.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
