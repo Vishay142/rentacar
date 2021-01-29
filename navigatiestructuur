@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T20:22:00.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="HxInn_9qN1R3ObKUnmsg" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T20:29:47.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344" etag="aqiy5EP1-d0kQ-KCedDG" version="14.2.9" type="github">
   <diagram id="F9VdqGE2_PKcR5Z-BLKk" name="Page-1">
     <mxGraphModel dx="998" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,24 +16,26 @@
           <mxGeometry x="79" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Soyi9P8CjRrKaz3-k7tW-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="vHLHLEQs7JEAJhVI8e9t-6" target="vHLHLEQs7JEAJhVI8e9t-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="689" y="250" />
+              <mxPoint x="767" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Soyi9P8CjRrKaz3-k7tW-3" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vHLHLEQs7JEAJhVI8e9t-6" target="Soyi9P8CjRrKaz3-k7tW-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="689" y="240" />
-              <mxPoint x="594" y="240" />
+              <mxPoint x="689" y="250" />
+              <mxPoint x="594" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-6" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="629" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vHLHLEQs7JEAJhVI8e9t-7" value="Factuur uitdraaien" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-11" value="Auto&#39;s aanpassen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-12" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vHLHLEQs7JEAJhVI8e9t-14" target="vHLHLEQs7JEAJhVI8e9t-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -42,10 +44,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-14" value="Auto&#39;s toevoegen&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-17" value="Auto&#39;s verwijderen&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-18" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vHLHLEQs7JEAJhVI8e9t-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -66,23 +68,42 @@
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="vHLHLEQs7JEAJhVI8e9t-24" target="vHLHLEQs7JEAJhVI8e9t-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Soyi9P8CjRrKaz3-k7tW-13" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vHLHLEQs7JEAJhVI8e9t-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="534" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-24" value="Registreren" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="474" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vHLHLEQs7JEAJhVI8e9t-25" value="Gegevens wijzigen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="707" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vHLHLEQs7JEAJhVI8e9t-27" value="Factuur uitdraaien" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Soyi9P8CjRrKaz3-k7tW-8" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Soyi9P8CjRrKaz3-k7tW-2" target="vHLHLEQs7JEAJhVI8e9t-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="360" />
+              <mxPoint x="670" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Soyi9P8CjRrKaz3-k7tW-9" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Soyi9P8CjRrKaz3-k7tW-2" target="vHLHLEQs7JEAJhVI8e9t-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Soyi9P8CjRrKaz3-k7tW-9" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Soyi9P8CjRrKaz3-k7tW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="360" />
+              <mxPoint x="520" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Soyi9P8CjRrKaz3-k7tW-2" value="Medewerker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Soyi9P8CjRrKaz3-k7tW-10" value="Auto&#39;s overzicht" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
